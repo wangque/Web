@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2019-06-16 19:24:42
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2019-06-21 11:13:56
+* @Last Modified time: 2019-06-22 13:15:32
 */
 *{
 	margin:0;
@@ -23,7 +23,6 @@ input{
 	width:1200px;
 	height:188px;
 	position:relative;
-	border-bottom:4px solid #3aa747;
 }
 .wx,.wb{
 	float:right;
@@ -148,6 +147,7 @@ input{
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	border-bottom:1px solid #7f7f7f;
+	border-top:4px solid #3aa747;
 }
 .all{
 	height:60px;
@@ -338,4 +338,23 @@ input{
 	text-align:center;
 	position:relative;
 	top:24px;
+}
+.right{
+	width:78px;
+	position:fixed;
+	background-color:#000;
+	right:0;
+	top:191px;
+}
+.right li{
+	width:68px;
+	height:117px;
+	margin-left: 5px;
+}
+.right li+li{
+	border-top:2px solid #595e5d;
+}
+.right li img{
+	margin-left:17px;
+	margin-top:45px;
 }
